@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Pineapple",
+        "price": 10,
+        "imgUrl": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+    },
+    {
+        "id": 2,
+        "name": "Computer",
+        "price": 100,
+        "imgUrl": "https://images.unsplash.com/photo-1664575602276-acd073f104c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "id": 3,
+        "name": "Book",
+        "price": 5,
+        "imgUrl": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+    },
+    {
+        "id": 4,
+        "name": "Wrist Watch",
+        "price": 100,
+        "imgUrl": "https://images.unsplash.com/photo-1557531365-e8b22d93dbd0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+    },
+    {
+        "id": 5,
+        "name": "Lexus Car",
+        "price": 100,
+        "imgUrl": "https://images.unsplash.com/photo-1672169538777-fb3211046a03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80"
+    }
+]
