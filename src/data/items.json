@@ -28,5 +28,11 @@
         "name": "Lexus Car",
         "price": 100,
         "imgUrl": "https://images.unsplash.com/photo-1672169538777-fb3211046a03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80"
+    },
+    {
+        "id": 6,
+        "name": "Headset",
+        "price": 120,
+        "imgUrl": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80"
     }
 ]

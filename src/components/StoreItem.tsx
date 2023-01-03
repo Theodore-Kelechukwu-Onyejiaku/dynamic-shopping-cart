@@ -24,7 +24,7 @@ export function StoreItem({ id, price, name, imgUrl }: StoreItemProps) {
                 <span className="text-lg font-bold">{name}</span>
                 <span className="text-gray-500">{formatCurrency(price)}</span>
             </div>
-            <div className="p-3">
+            <div className="p-3 h-24">
                 {quantity === 0 ? (
                 <button onClick={() => { dispatch(increaseCartQuantity(id)) }} className="w-full bg-blue-600 text-white p-2">+ Add To Cart</button>
                 )

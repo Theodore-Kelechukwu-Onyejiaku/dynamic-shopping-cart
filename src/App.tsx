@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import About from "./pages/About";
-import Home from "./pages/Home";
 import Store from "./pages/Store";
 import Navbar from "./components/Navbar"
 import { ShoppingCart } from "./components/ShoppingCart";
@@ -13,8 +12,7 @@ function App() {
       <ShoppingCart />
       <div className="mb-10 mx-10">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/store" element={<Store />} />
+          <Route path="/" element={<Store />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
