@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Store from "./pages/Store";
 import Navbar from "./components/Navbar"
+import { Footer } from "./components/Footer";
 import { ShoppingCart } from "./components/ShoppingCart";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -24,6 +25,7 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
+      <Footer/>
     </div>
   );
 }
