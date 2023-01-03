@@ -16,15 +16,13 @@ export default function Store() {
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {storeItems.filter(item => {
           if (keyword.trim()) {
-            console.log(item.name)
             if (item.name.toLowerCase().includes(keyword.toLowerCase())) {
               return item
             }
           } else {
             return item
           }
-        }).
-          map(item => <div key={item.id}>
+        }).map(item => <div key={item.id}>
             <StoreItem {...item} />
           </div>)}
       </div>

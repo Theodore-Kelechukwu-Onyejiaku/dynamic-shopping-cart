@@ -15,7 +15,6 @@ export default function Navbar() {
     useEffect(() => {
         document.addEventListener("click", (e: MouseEvent) => {
             if (cartBtnRef.current && cartBtnRef.current?.contains(e.target as Node)) {
-                console.log("ok oo")
                 dispatch(openCart())
             }
         })

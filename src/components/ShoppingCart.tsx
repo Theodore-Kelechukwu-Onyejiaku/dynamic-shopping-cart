@@ -22,7 +22,7 @@ export function ShoppingCart() {
                 dispatch(closeCart())
             }
         })
-    }, [])
+    })
 
     return <div ref={cartContainerRef} className={`${cartOpen ? "block " : "invisible "} h-screen overflow-hidden fixed inset-0 z-50 top-0 bg-black bg-opacity-60  w-full`}>
         <div ref={cartBodyRef} className={`${cartOpen ? "translate-x-0 " : "translate-x-full "} bg-white pb-24 h-full absolute  overflow-scroll right-0 w-full sm:w-1/2 transition-all  duration-300 ease-out`}>

@@ -18,7 +18,7 @@ export function StoreItem({ id, price, name, imgUrl }: StoreItemProps) {
     return (
         <div data-aos="fade-up" data-aos-duration="1000" className="border shadow-md py-3">
             <div className="overflow-hidden">
-                <img className="w-full object-cover hover:scale-150 hover:opacity-200 transition-all duration-500" style={{ height: "300px" }} src={imgUrl} />
+                <img alt="store item" className="w-full object-cover hover:scale-150 hover:opacity-200 transition-all duration-500" style={{ height: "300px" }} src={imgUrl} />
             </div>
             <div className="flex items-center justify-between mb-4 p-3">
                 <span className="text-lg font-bold">{name}</span>
