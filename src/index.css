@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 .cart-quantity.animate {
     font-size: 1pt;
     font-weight: 100;
 }
 
 .cart-quantity {
-    transition: all 0.2s;
+    transition: all 0.1s;
 }
